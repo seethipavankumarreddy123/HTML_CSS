@@ -10,7 +10,489 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
       <style>
         
+  *{
+
+    padding: 0;
+    margin: 0;
+border: border-box;
+
+}
+.navbar{
+
+background-color: black;
+color: white;
+height: 60px;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+
+} 
+.nav-logo{
+height: 54px;
+width: 100px;
+
+} 
+.logo{
+
+width: 100%;
+height: 50px;
+
+background-size: cover;
+background-image: url("ammain.jpg");
+
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/**box2**/
+.add-frist{
+color: #cccccc;
+font-size: 0.8rem;
+
+}
+.add-second{
+    
+font-size: 1rem;
+margin-left: 5px;
+}
+
+.add-ion{
+    display: flex;
+    align-items: center;
+}
+.nav-add{
+    margin-top: 4px;
+}
+/*box3*/
+.nav-search{
+    display: flex;
+   margin-left: 10px;
+    width: 620px;
+    height: 40px;
+
+    justify-content: space-evenly;
+
+}
+.nav-search:hover{
+    border:2px solid orange;
+    border-radius: 8px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+   border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+.search-ion{
+
+    width: 45px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.country{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7px;
+}
+/*box4*/
+span{
+font-size: 0.7rem;
+}
+.nav-second{
+
+    font-size: 0.85;
+    font-weight: 700;
+}
+.signin{
+    margin-left: 10px;
+}
+.oders{
+    margin-left: 10px;
+}
+.cart i{
+font-size:30px ;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*pannel*/
+.pannel{
+    height: 40px;
+    background-color: #222f3d;
+color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-ops p{
+    display: inline;
+    margin-left: 15px;
+    
+}
+.pannel-ops{
+width:70%;
+font-size: 0.85rem;
+font-weight: 800;
+
+
+}
+.pannel-deal{
+    font-size: 0.85rem;
+    font-weight: 800;
+
+}
+.all i {
+margin-left: -50px;
+
+}
+.hero-section img{
+    background-image: url("amhero.jpg");
+       
+        width: 100%;
+        height: 600px;
+    }
+    .hero-section {
+   
+        background-image: url("amhero.jpg");
+       
+         width: 100%;
+         height: 500px;
+         background-size: cover;
+         
+     
+     }
+
+.border1{
+
+   
+    width: 23%;
+}
+.border12{
+
+   
+    width: 23%;
+}
+.boxes{
+    display: flex;
+   justify-content: space-evenly;
+  width: 100%;
   
+   height: 100%;
+   margin-top: -100px;
+   
+}
+.boxes4 {
+    display: flex;
+    justify-content: space-evenly; /* Use space-between to evenly distribute space between the images */
+   
+    width: 100%; /* Ensure the container takes up the full width of its parent */
+    margin-top: 20px;
+  }
+.adj{
+    justify-content: space-evenly;
+
+}
+
+
+
+
+.boxes2{
+    display: flex;
+   margin-left: 10px;
+    
+}
+.box{
+    display: flex;
+}
+
+.box1 img{
+    width: 270px;
+height: 350px;
+
+margin-top: 10px;
+}
+
+.box1 h2{
+
+ margin-top: 15px;
+ font-weight: 900;
+}
+.box2 h2{
+
+    margin-top: 15px;
+    font-weight: 900;
+   }
+   .box3 h2{
+
+    margin-top: 15px;
+    font-weight: 900;
+   }
+.box1 a{
+   text-decoration: none;
+}
+.box2 a{
+    text-decoration: none;
+ }
+ .box3 a{
+    text-decoration: none;
+ }
+   .box1 {
+   background-color: white;
+   
+   
+   }
+   
+  
+  
+      
+       
+  .box3 img{
+    margin-top: 14px;
+        width: 43%;
+        height: 164px;
+        justify-content: space-evenly;
+        margin-left: 14px;
+       
+      }
+      .box2 img{
+        margin-top: 14px;
+            width: 43%;
+            height: 164px;
+            justify-content: space-evenly;
+            margin-left: 14px;
+           
+          }
+      .adj img{
+        width: 150px;
+      }
+      .box4.kana{
+        background-color: yellow;
+        width: 200px;
+        margin-top: 30px;
+        border: 2px solid black;
+        height: 30px;
+        text-decoration: none; 
+        margin-left: 37%; 
+        color: red;
+      }
+      .boxes4 {
+        display: flex;
+        justify-content: space-evenly; /* Use space-between to evenly distribute space between the images */
+      
+        width: 100%; /* Ensure the container takes up the full width of its parent */
+        margin-top: 20px;
+      }
+      
+      .boxes4 img {
+        width: 260px;
+        height: 350px;
+         /* Add margin to the left of each image */
+       margin-left: 16px;
+      }
+      
+      .img1 {
+        width: 292px; /* Adjust width to match the width of the images */
+      
+      }
+      
+    .box2{
+background-color: white;
+    }
+    .box3{
+        background-color: white;
+            }
+            .box4{
+                background-color: white;
+                    }
+                    .border12{
+margin-top: 20px;
+                        border: 2px solid black;
+                        height: 250px;
+                        width: 100%;
+                    }
+                    .watch img{
+                        width: 13%;
+                        height: 200px;
+                        align-items: center;
+                        justify-content: center;
+                       
+                        margin-left: 9px;
+                        
+                    }
+                    .watch1 img{
+                        width: 13%;
+                        height: 200px;
+                        align-items: center;
+                        justify-content: center;
+                       
+                        margin-left: 9px;
+                    }
+                    
+                    
+                   .boxes .box2 {
+                        background-color: white;
+                    }
+                    .watch{
+                        background-color: white;
+                        margin-top: 20px;
+                        width: 100%;
+                     
+                       margin-left: 8px;
+                        margin-right:0 ;
+                        justify-content: center;
+                    }
+                    .watch1{
+                        background-color: white;
+                        margin-top: 20px;
+                        width: 100%;
+                       margin-left: 8px;
+                       margin-right:8px ;
+                    }
+                    .watch12{
+                        background-color: white;
+                        margin-top: 20px;
+                        width: 100%;
+                        height: 200px;
+                        
+                    }
+                .img1{
+                    background-color: white;
+                }
+                body{
+                    background-color: gainsboro;
+                    width: 100%;
+                    margin: 0;
+                    padding: 0;
+                }
+               
+
+                .kl{
+
+                    background-color: #0f1111;
+                    width: 100%;
+                    height: 80px;
+                   
+                }
+                
+                
+                
+                .pb {
+                    background-color: #232f3e;
+                  width: 100%;
+                    height: 300px;
+                    margin-top: 4px;
+                    display: flex;
+                    justify-content: space-around;
+                  padding: 10px;
+                  margin-top: 1px;
+            
+                  }
+                  .column {
+                    display: flex;
+                    flex-direction: column;
+                    width: 23%;
+                   
+                  }
+                  pre {
+                    color: white;
+                    margin: 20px;
+                    padding: 0;
+                    font-size: 14px;
+                  }
+                .line1{
+                   
+                    width: 100%;
+                    height: 150px; 
+                    background-color: white;
+                   border: 1px solid black;
+                   margin-top: 40px;
+                }
+                .heading{
+                   
+                   
+                text-align: center;
+                
+                }
+                .parag{
+                    text-align: center;
+                    
+                }
+               
+                .footerplane2{
+                    background-color: #222f3d;
+                    color: white;
+                    height: 300px;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                ul{
+                    margin-top: 10px;
+                }
+                
+                ul a{
+                    display: block;
+                    font-size: 1rem;
+                    margin-top: 10px;
+                }
+                .footerplane3{
+                    width: 100%;
+                    background-color:#222f3d;
+                    border-top: 1px solid white;
+                    height: 100px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+.logo{
+    width: 100px;
+height: 50px;
+margin-top: 20px;
+margin-left: 460px;
+background-size: cover;
+background-image: url("ammain.jpg");
+color: white;
+
+}
+         .border1234{
+border: 1px solid white;
+         }       
+         .footerplane23{
+            background-color: rgb(63, 62, 62);
+            color: white;
+            height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+            border-bottom: white 2px solid;
+        }
+        .footerplane23 ul{
+            margin-top: 10px;
+        }
+        
+        .footerplane23  ul a{
+            display: block;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
       </style>
   </head>
   <body >
